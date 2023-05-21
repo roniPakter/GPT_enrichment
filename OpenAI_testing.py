@@ -5,7 +5,7 @@ import re
 import json
 import pandas as pd
 
-openai.api_key = "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"
+openai.api_key = "sk-"
 
 def ask(prompt):
     response = openai.Completion.create(
